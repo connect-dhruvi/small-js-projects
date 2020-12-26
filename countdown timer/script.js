@@ -11,10 +11,14 @@ function countdown() {
     const mins = Math.floor(seconds / 60) % 60;
     const secs = Math.floor(seconds % 60);
 
-    document.getElementById('days').innerHTML = days;
-    document.getElementById('hours').innerHTML = hours;
-    document.getElementById('mins').innerHTML = mins;
-    document.getElementById('secs').innerHTML = secs;
+    document.getElementById('days').innerHTML = setTime(days) +":";
+    document.getElementById('hours').innerHTML = setTime(hours)+":";
+    document.getElementById('mins').innerHTML = setTime(mins)+":";
+    document.getElementById('secs').innerHTML = setTime(secs);
+}
+
+function setTime(time){
+    return time < 10 ? `0${time}`: time  ;
 }
 
 setInterval(countdown, 1000);
