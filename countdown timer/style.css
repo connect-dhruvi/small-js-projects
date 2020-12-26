@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gochi Hand', cursive;
+    background-image: url("./snow.jfif");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin:0;
+}
+.countdown-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    font-weight: bold;
+    margin:  2rem;
+}
+h1{
+    font-size: 5rem;
+    margin-top: -15rem;
+    font-weight: normal;
+}
+.el{
+    text-align: center;
+}
+.el span{
+    font-size: 2rem;
+}
+.hours-c{
+}
+.mins-c{
+}
+.secs-c{
+}
+
