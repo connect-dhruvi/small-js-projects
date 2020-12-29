@@ -1,6 +1,5 @@
 <head>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>
 
     </title>
@@ -12,25 +11,31 @@
             <h1 id="question"> Question Text</h1>
             <ul>
                 <li>
-                    <input id="a" name="answer" type="radio">
+                    <input id="a" value="a" name="answer" type="radio">
                     <label for="a" id="a_text">Question</label>
                 </li>
                 <li>
-                    <input id="b" name="answer" type="radio">
+                    <input id="b" value="b" name="answer" type="radio">
                     <label for="b" id="b_text">Question</label>
                 </li>
                 <li>
-                    <input id="c" name="answer" type="radio">
+                    <input id="c" value="c" name="answer" type="radio">
                     <label for="c" id="c_text">Question</label>
                 </li>
                 <li>
-                    <input id="d" name="answer" type="radio">
+                    <input id="d" value="d" name="answer" type="radio">
                     <label for="d" id="d_text">Question</label>
                 </li>
             </ul>
         </div>
-        <button>Submit</button>
+        <button id="submit">Submit</button>
     </div>
+    <div class="result-container" style="display: none;">
+        <h1 id="result">
+       
+        </h1>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

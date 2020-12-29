@@ -40,6 +40,10 @@ ul li{
     font-size: 1.3rem;;
 }
 
+ul li label{
+    cursor: pointer;
+}
+
 button{
     background-color:  #3498DB;
     color: white;
